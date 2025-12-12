@@ -4,7 +4,6 @@ const experienceData = [
   {
     title: "Front-End Developer (ReactJs and Angular)",
     company: "Big Solutions Private Limited",
-    period: "Contract / Probation",
     description: [
       "Developed responsive, user-friendly interfaces using React.js, Angular, TypeScript, and JavaScript.",
       "Collaborated with backend teams to integrate REST APIs and improve overall application performance.",
@@ -47,7 +46,7 @@ const Experience = () => {
               <h3 className="text-xl md:text-2xl font-semibold">{exp.title}</h3>
               <span className="text-purple-400 font-medium">{exp.company}</span>
             </div>
-            <p className="italic opacity-80 mb-3">{exp.period}</p>
+            {/* <p className="italic opacity-80 mb-3">{exp.period}</p> */}
 
             <ul className="list-disc pl-5 space-y-1 opacity-90">
               {exp.description.map((point, index) => (
